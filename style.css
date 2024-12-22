@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    position: absolute;
+    border: 2px solid black;
+    height: 400px;
+    width: 250px;
+    background-color: aqua;
+    border-radius: 15px;
+    padding: 50px;
+}
+#card1{
+    z-index: 10;
+    background-image: url(https://files.oaiusercontent.com/file-3KL9hM8meeo3WnjMxh6jTb?se=2024-12-22T16%3A17%3A53Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D73198b32-35c2-4823-9a76-4e5189016afb.webp&sig=eITXm7BvM9kW14JERqKjyr0EQ22H4a4GECLPzK3hFtw%3D);
+    background-size: cover;
+    background-position: center;
+}
+#card2{
+    z-index: 8;
+    background-image: url(https://files.oaiusercontent.com/file-KdSBU2pWYyvBHufiEQyVep?se=2024-12-22T16%3A19%3A23Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D27135460-587f-4526-bd41-114fb1221a4f.webp&sig=tt540pvGlqRgbd990wt8x5bmfRaguV/mEQlSLfyCMjo%3D);
+    background-size: cover;
+    background-position: center;
+    rotate: -13deg;
+}
+#card3{
+    z-index: 6;
+    background-image: url(https://files.oaiusercontent.com/file-SDEQLvRwSeWe2vVoWvyzn9?se=2024-12-22T16%3A21%3A31Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D1d6758fb-4481-4955-ab26-ddc597049a28.webp&sig=%2BJSTWNO0ixZ7eZT5HA4OziTq1b1XZQH7aGFhCnSiolM%3D);
+    background-size: cover;
+    background-position: center;
+    rotate: -26deg;
+
+}
+#card4{
+    background-image: url(https://files.oaiusercontent.com/file-CMxrrmkMjEoRRfSB2V9UNZ?se=2024-12-22T16%3A32%3A21Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dd7db71af-0b1e-4bad-8372-1c79af260067.webp&sig=hIofMo9z5yOXVLs7F4M4kdTYOS7W53%2BMZwd2odcSoUg%3D);
+    background-size: cover;
+    background-position: center;
+    rotate: -39deg;
+}
+
+#card2:hover { 
+    z-index: 15;
+ }
+ #card3:hover { 
+    z-index: 15;
+ }
+ #card4:hover { 
+    z-index: 15;
+ }
